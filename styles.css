@@ -1,0 +1,81 @@
+ body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8f9fa; /* New light gray background color */
+        }
+        .navbar {
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1.5rem 1rem; /* Increased padding */
+        }
+        .nav-link {
+            font-size: 1.1rem; /* Increased font size */
+        }
+        .hero-section {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZX2fIsMEGLEHWHJmygGrgjM2893XlTOO0Of8DhKPIbU0YDmOLjYQi2FfUFJYG0gENK-s&usqp=CAU'); /* Ocean image */
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            padding: 20px; 
+        }
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4); 
+        }
+        .hero-content {
+            position: relative;
+            z-index: 10;
+        }
+        .card {
+            border: none;
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .accordion .card-header {
+            background-color: #fff;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .accordion .btn-link {
+            color: #007bff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+      
+        .section-banner {
+            background-color: #a04e3b; 
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .section-banner h2 {
+            margin-bottom: 0;
+            font-family: serif; 
+            font-weight: bold;
+        }
+        .section-padding {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+		.footer {
+            background-color: #343a40;
+            color: #fff;
+        }
+        .social-icons a {
+            color: #fff;
+            font-size: 1.5rem;
+            margin: 0 10px;
+        }
